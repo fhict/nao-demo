@@ -1,0 +1,79 @@
+#
+# this config file was automatically generated
+# using lirc-0.6.6(serial) on Sat Mar 13 20:33:36 2004
+#
+# contributed by Lca De Rugeriis <piedamaro|libero.it>
+#
+# brand: Philips
+# model no. of remote control: RC5903
+# devices being controlled by this remote: Philips TV set
+#
+
+begin remote
+
+  name  RC5903
+  bits           13
+  flags RC5|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  one           894   865
+  zero          894   865
+  plead         950
+  gap          112612
+  toggle_bit      2
+
+
+      begin codes
+          green                	0x000000000000100E
+          mute                  0x000000000000100D
+          power_on           	0x0000000000001026
+          power_off           	0x000000000000100C
+          tv                    0x000000000000103F
+          teletext              0x000000000000103C
+          ext1                  0x0000000000001038
+          show_channel     	0x000000000000100F
+          1                     0x0000000000001001
+          2                     0x0000000000001002
+          3                     0x0000000000001003
+          4                     0x0000000000001004
+          5                     0x0000000000001005
+          6                     0x0000000000001006
+          7                     0x0000000000001007
+          8                     0x0000000000001008
+          9                     0x0000000000001009
+          0                     0x0000000000001000
+          -/--                  0x000000000000100A
+          p<p                  	0x0000000000001022
+          channel_up           	0x0000000000001020
+          channel_down         	0x0000000000001021
+          volume_up            	0x0000000000001010
+          volume_down        	0x0000000000001011
+          color_up             	0x0000000000001014
+          color_down            0x0000000000001015
+          brightness_up        	0x0000000000001012
+          brightness_down   	0x0000000000001013
+          treble_up             0x0000000000001018
+          treble_down          	0x0000000000001019
+          bass_up              	0x0000000000001016
+          bass_down            	0x0000000000001017
+          stereo/mono          	0x0000000000001024
+          balance_left          0x000000000000101B
+          balance_right        	0x000000000000101A
+          I/II                  0x0000000000001023
+          time                  0x000000000000102A
+          wait		        0x0000000000001029
+          minimize              0x000000000000102D
+          solve                 0x000000000000102C
+          magnify               0x000000000000102B
+          translucent           0x000000000000102E
+          play/index           	0x0000000000001035
+          record                0x0000000000001037
+          stop                  0x0000000000001036
+          backward             	0x0000000000001032
+          forward               0x0000000000001034
+      end codes
+
+end remote
+
+
